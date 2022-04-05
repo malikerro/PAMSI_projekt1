@@ -12,7 +12,7 @@ __start__: projekt_1
 	./projekt_1
 
 projekt_1: main.o Sortowanie.o Wektor.o
-	g++ ${CXXFLAGS} main.o Sortowanie.o Wektor.o -o projekt_1
+	g++ -Wall -pedantic main.o Sortowanie.o Wektor.o -o projekt_1
 
 main.o: main.cpp
 	g++ -c ${CXXFLAGS} main.cpp

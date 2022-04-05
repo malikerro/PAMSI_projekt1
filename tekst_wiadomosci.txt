@@ -1,208 +1,29 @@
-
-Wyniki czasu sortowania tablic o rozmiarze 10000 elementow
-
-Dla tablicy nieposortowanej :
-merge sort: 0.17008 sekund
-Dla tablicy posortowanej w 25% :
-merge sort: 0.147916 sekund
-Dla tablicy posortowanej w 50% :
-merge sort: 0.127469 sekund
-Dla tablicy posortowanej w 75% :
-merge sort: 0.1117 sekund
-Dla tablicy posortowanej w 95% :
-merge sort: 0.093715 sekund
-Dla tablicy posortowanej w 99% :
-merge sort: 0.091789 sekund
-Dla tablicy posortowanej w 997% :
-merge sort: 0.090773 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-merge sort: 0.10756 sekund
-
-
-Dla tablicy nieposortowanej :
-quick sort: 0.148605 sekund
-Dla tablicy posortowanej w 25% :
-quick sort: 0.128656 sekund
-Dla tablicy posortowanej w 50% :
-quick sort: 0.108695 sekund
-Dla tablicy posortowanej w 75% :
-quick sort: 0.088798 sekund
-Dla tablicy posortowanej w 95% :
-quick sort: 0.080793 sekund
-Dla tablicy posortowanej w 99% :
-quick sort: 0.078788 sekund
-Dla tablicy posortowanej w 997% :
-quick sort: 0.077758 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-quick sort: 0.080294 sekund
-
-
-Dla tablicy nieposortowanej :
-intro sort: 0.130721 sekund
-Dla tablicy posortowanej w 25% :
-intro sort: 0.116723 sekund
-Dla tablicy posortowanej w 50% :
-intro sort: 0.090009 sekund
-Dla tablicy posortowanej w 75% :
-intro sort: 0.072822 sekund
-Dla tablicy posortowanej w 95% :
-intro sort: 0.060831 sekund
-Dla tablicy posortowanej w 99% :
-intro sort: 0.055852 sekund
-Dla tablicy posortowanej w 997% :
-intro sort: 0.055882 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-intro sort: 0.062827 sekund
-
-
-
-Wyniki czasu sortowania tablic o rozmiarze 50000 elementow
-
-Dla tablicy nieposortowanej :
-merge sort: 1.06689 sekund
-Dla tablicy posortowanej w 25% :
-merge sort: 0.913558 sekund
-Dla tablicy posortowanej w 50% :
-merge sort: 0.777913 sekund
-Dla tablicy posortowanej w 75% :
-merge sort: 0.667229 sekund
-Dla tablicy posortowanej w 95% :
-merge sort: 0.565637 sekund
-Dla tablicy posortowanej w 99% :
-merge sort: 0.577062 sekund
-Dla tablicy posortowanej w 997% :
-merge sort: 0.559993 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-merge sort: 0.64448 sekund
-
-
-Dla tablicy nieposortowanej :
-quick sort: 0.884594 sekund
-Dla tablicy posortowanej w 25% :
-quick sort: 0.802251 sekund
-Dla tablicy posortowanej w 50% :
-quick sort: 0.68672 sekund
-Dla tablicy posortowanej w 75% :
-quick sort: 0.537819 sekund
-Dla tablicy posortowanej w 95% :
-quick sort: 0.450761 sekund
-Dla tablicy posortowanej w 99% :
-quick sort: 0.438358 sekund
-Dla tablicy posortowanej w 997% :
-quick sort: 0.432071 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-quick sort: 0.464206 sekund
-
-
-Dla tablicy nieposortowanej :
-intro sort: 0.833189 sekund
-Dla tablicy posortowanej w 25% :
-intro sort: 0.635759 sekund
-Dla tablicy posortowanej w 50% :
-intro sort: 0.514639 sekund
-Dla tablicy posortowanej w 75% :
-intro sort: 0.400927 sekund
-Dla tablicy posortowanej w 95% :
-intro sort: 0.31929 sekund
-Dla tablicy posortowanej w 99% :
-intro sort: 0.296229 sekund
-Dla tablicy posortowanej w 997% :
-intro sort: 0.297238 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-intro sort: 0.329639 sekund
-
-
-
-Wyniki czasu sortowania tablic o rozmiarze 100000 elementow
-
-Dla tablicy nieposortowanej :
-merge sort: 2.24759 sekund
-Dla tablicy posortowanej w 25% :
-merge sort: 1.92541 sekund
-Dla tablicy posortowanej w 50% :
-merge sort: 1.66611 sekund
-Dla tablicy posortowanej w 75% :
-merge sort: 1.38822 sekund
-Dla tablicy posortowanej w 95% :
-merge sort: 1.20493 sekund
-Dla tablicy posortowanej w 99% :
-merge sort: 1.18012 sekund
-Dla tablicy posortowanej w 997% :
-merge sort: 1.1598 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-merge sort: 1.34027 sekund
-
-
-Dla tablicy nieposortowanej :
-quick sort: 1.8419 sekund
-Dla tablicy posortowanej w 25% :
-quick sort: 1.58635 sekund
-Dla tablicy posortowanej w 50% :
-quick sort: 1.34703 sekund
-Dla tablicy posortowanej w 75% :
-quick sort: 1.13282 sekund
-Dla tablicy posortowanej w 95% :
-quick sort: 0.938703 sekund
-Dla tablicy posortowanej w 99% :
-quick sort: 0.917941 sekund
-Dla tablicy posortowanej w 997% :
-quick sort: 0.951254 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-quick sort: 0.96906 sekund
-
-
-Dla tablicy nieposortowanej :
-intro sort: 1.69228 sekund
-Dla tablicy posortowanej w 25% :
-intro sort: 1.31259 sekund
-Dla tablicy posortowanej w 50% :
-intro sort: 1.05843 sekund
-Dla tablicy posortowanej w 75% :
-intro sort: 0.83646 sekund
-Dla tablicy posortowanej w 95% :
-intro sort: 0.65092 sekund
-Dla tablicy posortowanej w 99% :
-intro sort: 0.618349 sekund
-Dla tablicy posortowanej w 997% :
-intro sort: 0.615804 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-intro sort: 0.700395 sekund
-
-
-
-Wyniki czasu sortowania tablic o rozmiarze 500000 elementow
-
-Dla tablicy nieposortowanej :
-merge sort: 34.6095 sekund
-Dla tablicy posortowanej w 25% :
-merge sort: 15.63 sekund
-Dla tablicy posortowanej w 50% :
-merge sort: 11.2887 sekund
-Dla tablicy posortowanej w 75% :
-merge sort: 9.32063 sekund
-Dla tablicy posortowanej w 95% :
-merge sort: 7.79219 sekund
-Dla tablicy posortowanej w 99% :
-merge sort: 7.54259 sekund
-Dla tablicy posortowanej w 997% :
-merge sort: 7.43662 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-merge sort: 8.31273 sekund
-
-
-Dla tablicy nieposortowanej :
-quick sort: 19.3859 sekund
-Dla tablicy posortowanej w 25% :
-quick sort: 18.8459 sekund
-Dla tablicy posortowanej w 50% :
-quick sort: 9.94534 sekund
-Dla tablicy posortowanej w 75% :
-quick sort: 10.6936 sekund
-Dla tablicy posortowanej w 95% :
-quick sort: 7.87943 sekund
-Dla tablicy posortowanej w 99% :
-quick sort: 8.24044 sekund
-Dla tablicy posortowanej w 997% :
-quick sort: 9.01753 sekund
-Dla tablicy posortowanej w odwrotnej kolejnosci :
-quick sort: 
+Zadania na ocenę bdb (5.0): 
+Załóżmy, że Jan chce wysłać 
+przez Internet wiadomość W 
+do Anny. Z różnych powodów 
+musi podzielić ją na n pakietów. 
+Każdemu pakietowi nadaje 
+kolejne numery i wysyła przez 
+sieć. Komputer Anny po otrzymaniu 
+przesłanych pakietów musi 
+poskładać je w całą wiadomość, 
+ponieważ mogą one przychodzić w 
+losowej kolejności. Państwa 
+zadaniem jest zaprojektowanie i 
+zaimplementowanie odpowiedniego 
+rozwiązania radzącego sobie z 
+tym problemem. Należy wybrać i 
+zaimplementować zgodnie z danym 
+dla wybranej struktury ADT oraz 
+przeanalizować czas działania - 
+złożoność obliczeniową 
+proponowanego rozwiązania. W 
+sprawozdaniu (3-5 strony + strona 
+tytułowa) należy opisać rodzaj 
+wybranej struktury danych wraz 
+z uzasadnieniem wyboru oraz opisać 
+proponowane rozwiązanie problemu. 
+Należy także opisać sposób analizy 
+złożoności obliczeniowej i podać 
+jej wynik w notacji dużego O.
