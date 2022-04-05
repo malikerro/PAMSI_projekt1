@@ -5,7 +5,6 @@
 string nazwa_pliku = "tresc_wiadomosci.txt";
 
 
-
 void podziel_plik(Wektor<Pakiet> &wektor, ifstream &uchwyt)
 {
     Pakiet tmp_pakiet;
@@ -52,14 +51,14 @@ void wczytaj_i_wyswietl(bool rekurencja)
         cout << "Podaj ponownie nazwe pliku: ";
         wczytaj_i_wyswietl(1);
     } else {
-	    while(getline(uchwyt, tmp_ciag_znakow)) //dopóki jest co czytać
+	    while(getline(uchwyt, tmp_ciag_znakow, '.')) //dopóki jest co czytać
 	    {
+            tmp_ciag_znakow += ".";
             cout << tmp_ciag_znakow;
         }
     }
     uchwyt.close();
 }
-
 
 
 
@@ -70,29 +69,36 @@ int main ()
 
     Wektor<Pakiet> wektor_pakietow = Wektor<Pakiet>();
     
-    cout << "\nTekst wiadomosci:\n";
+    cout << "\nTekst wiadomosci:\n\n";
     wczytaj_i_wyswietl(0);
 
     wczytaj_i_podziel(wektor_pakietow, 0);
     const int rozmiar = wektor_pakietow.Indeks() + 1;
-    int ilosc_przemieszan = (int)(rozmiar/2);
+    int ilosc_przemieszan = rozmiar*4;
     wektor_pakietow.wymieszaj(ilosc_przemieszan);
     
-    cout << "\n\n\nPakiety odebrane w kolejnosci losowej: \n\n";
+    cout << "\n\n\n______________________________________________________________________\n";
+    cout << "Pakiety odebrane w kolejnosci losowej: \n\n";
     for(int i = 0; i < rozmiar; i++)
     {
-        cout << wektor_pakietow[i].numer << endl;
-        //cout << "nr. " << wektor_pakietow[i].numer << " " << wektor_pakietow[i].fragment << endl;
+        cout << "nr. " << wektor_pakietow[i].numer << " " << wektor_pakietow[i].fragment << endl;
     }
 
     Sortowanie sortowanie;
-    sortowanie.merge_sort(wektor_pakietow);
+    sortowanie.quick_sort(wektor_pakietow);
 
-    cout << "\n\nTresc poukladanej wiadomosci: \n";
+    cout << "\n\n\n______________________________________________________________________\n";
+    cout << "Poukladane pakiety: \n\n";
     for(int i = 0; i < rozmiar; i++)
     {
-        cout << wektor_pakietow[i].numer << endl;
-        //cout << wektor_pakietow[i].fragment;
+        cout << "nr. " << wektor_pakietow[i].numer << " " << wektor_pakietow[i].fragment << endl;
+    }
+
+    cout << "\n\n\n______________________________________________________________________\n";
+    cout << "Tresc poukladanej wiadomosci: \n\n";
+    for(int i = 0; i < rozmiar; i++)
+    {
+        cout << wektor_pakietow[i].fragment;
     }
     cout << endl;
 
